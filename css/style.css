@@ -42,7 +42,7 @@ body{
   margin: 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background: linear-gradient(to bottom, #f6f8f9 0%,#e5ebee 50%,#d7dee3 51%,#f5f7f9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: linear-gradient(to bottom, #e0f2ff 0%,#f9edd4 66%,#d5e8db 67%,#f5f7f9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', endColorstr='#f5f7f9',GradientType=0 ); /* IE6-9 */
 }
 ol,ul{
@@ -120,12 +120,17 @@ h1 {
 }
 
 #radial-menu nav {
+  position: relative;
+  top: 50%;
   transform: scale(0.1);
   transition: all .3s ease 0.3s;
+  opacity: 0;
 }
 
 #radial-menu.open nav {
   transform: scale(1);
+  top: 0%;
+  opacity: 1;
 }
 
 /* hub */
@@ -149,10 +154,12 @@ h1 {
   z-index: 11;
 }
 
-#radial-menu > a:hover,
-#radial-menu > a:active,
-#radial-menu > a:focus {
+#radial-menu > a:hover {
   background-color: rgba(255, 255, 255, 0.9);
+}
+
+#radial-menu a:active {
+  transform: scale(0.95);
 }
 
 /* spokes */
@@ -208,9 +215,7 @@ h1 {
 }
 
 /* spoke interior span */
-#radial-menu nav > div > div > span {
-
-}
+#radial-menu nav > div > div > span {}
 
 /* spoke interior buttons */
 #radial-menu nav > div > div > span > a {
