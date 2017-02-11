@@ -154,12 +154,17 @@ h1 {
   z-index: 11;
 }
 
+#radial-menu a {
+  box-shadow: 1px 1px 3px #dedede;
+}
+
 #radial-menu > a:hover {
   background-color: rgba(255, 255, 255, 0.9);
 }
 
 #radial-menu a:active {
   transform: scale(0.95);
+  box-shadow: none;
 }
 
 /* spokes */
