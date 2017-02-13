@@ -79,11 +79,15 @@
 		var radialMenu = document.getElementById("radial-menu");
 		var menuButton = radialMenu.querySelector("a");
 
+		document.addEventListener("click", function (e) {
+			radialMenu.classList.remove("open");
+		});
+
 		menuButton.addEventListener("click", function (e) {
 			if (radialMenu.classList.contains("open")) {
-				radialMenu.classList.remove("open")
+				radialMenu.classList.remove("open");
 			} else {
-				radialMenu.classList.add("open")
+				radialMenu.classList.add("open");
 			}
 			e.preventDefault();
 		});
