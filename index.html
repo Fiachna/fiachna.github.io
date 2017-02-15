@@ -107,6 +107,7 @@
 			siblings = Array.from(target.parentNode.children).filter(function(e) { return e != target; });
 
 			target.classList.add('active');
+			document.getElementById("radial-menu").classList.remove('open');
 
 			for(var i=0; i<siblings.length; i++) {
 				let sibling = siblings[i];
