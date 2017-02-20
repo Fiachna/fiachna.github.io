@@ -84,6 +84,7 @@ a {
 h1 {
   font-family: 'Indie Flower', cursive;
   font-size: 300%;
+  margin-bottom: 1em;
 }
 
 #background {
@@ -144,13 +145,16 @@ footer a:active {
   left: 15%;
   bottom: 0;
   top: 0;
-  background-color: #0b0;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-top-left-radius: 10px;
+  padding-top: 1.5em;
+  padding: 1em;
 }
 
 .main.content section {
   position: absolute;
-  top: 0;
   opacity: 0;
+  width: 95%;
 
   transition: opacity .3s ease .3s;
 }
@@ -160,9 +164,13 @@ footer a:active {
 }
 
 /* media queries */
-@media screen and (max-width:480px){
+@media screen and (max-device-width:1000px){
   #radial-menu{
     display: block !important;
+  }
+
+  h1 {
+    font-size: 200%;
   }
 
   footer {
