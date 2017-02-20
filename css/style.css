@@ -344,9 +344,9 @@ footer a:active {
 }
 
 /* media queries */
-@media screen and (max-width:480px){
+@media screen and (max-device-width:480px){
   #radial-menu{
-    font-size:.68em;
+    font-size:0.75em;
   }
   #radial-menu > a{
     font-size:1em;

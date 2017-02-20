@@ -18,23 +18,51 @@
 	<section class="main content">
 		<section id="home">
 			<h1>Hi, I'm Fiachna</h1>
+			<hr />
 		</section>
 		<section id="about">
 			<h1>Hi, I'm Fiachna</h1>
+			<hr />
 			<p></p>
 		</section>
 		<section id="work">
 			<h1>Your project here!</h1>
+			<hr />
 			<p>I'm currently on the lookout for exciting projects! If you have a web site or application that you'd like designed or built or just need some general IT help or solutions, get in touch! I'd love to help you in whatever way I can!</p>
 		</section>
 		<section id="blog">
 			<h1>Hello World!</h1>
+			<hr />
 			<p>Coming Soon</p>
 		</section>
 		<section id="contact">
 			<h1>Get in touch!</h1>
-			<div><p>This should probably be some kind of form</p></div>
-			<div><p>And this would be the success message</p></div>
+			<hr />
+			<p>Whether you need something built, fixed or
+			<div>
+				<form action="https://formspree.io/fiachna.carter@gmail.com" method="POST">
+					<div>
+						<label for="name">Name: </label>
+						<input required type="text" name="name" />
+					</div>
+					<div>
+						<label for="email">Email: </label>
+						<input required type="email" name="_replyto" />
+					</div>
+					<div>
+						<label for="message">Message:</label>
+						<textarea required name="message"></textarea>
+					</div>
+			    <input type="submit" value="Send">
+				</form>
+				<div>
+
+				</div>
+				<div>
+				</div>
+			</div>
+			<div>
+			</div>
 		</section>
 	</section>
 
@@ -96,26 +124,29 @@
 				e.preventDefault();
 			});
 		})();
+		
+		// navigation and routing
+		(function() {
+			// set up and watch hash changes
+			function hashChangeHandler() {
+				locationIdentifier = location.hash.substring(1) || 'home';
 
-		// set up and watch hash changes
-		function hashChangeHandler() {
-			locationIdentifier = location.hash.substring(1) || 'home';
+				target = document.getElementById(locationIdentifier);
+				siblings = Array.from(target.parentNode.children).filter(function(e) { return e != target; });
 
-			target = document.getElementById(locationIdentifier);
-			siblings = Array.from(target.parentNode.children).filter(function(e) { return e != target; });
+				target.classList.add('active');
+				document.getElementById("radial-menu").classList.remove('open');
 
-			target.classList.add('active');
-			document.getElementById("radial-menu").classList.remove('open');
-
-			for(var i=0; i<siblings.length; i++) {
-				let sibling = siblings[i];
-				sibling.classList.remove('active');
+				for(var i=0; i<siblings.length; i++) {
+					let sibling = siblings[i];
+					sibling.classList.remove('active');
+				};
 			};
-		};
 
-		hashChangeHandler();
+			hashChangeHandler();
 
-		window.addEventListener("hashchange", hashChangeHandler);
+			window.addEventListener("hashchange", hashChangeHandler);
+		})();
 	</script>
 </body>
 </html>
