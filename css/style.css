@@ -94,6 +94,16 @@ a {
   padding: 1.5em;
 }
 
+#title {
+  text-align: center;
+}
+
+#title img {
+  border-radius: 50%;
+  width: 10em;
+  filter: brightness(66%) sepia(100%);
+}
+
 h1 {
   font-size: 300%;
   text-align: center;
@@ -102,6 +112,7 @@ h1 {
 h2 {
   font-size: 200%;
   text-align: right;
+  width: 80%;
 }
 
 h3 {
@@ -181,7 +192,20 @@ textarea {
     font-size: 0.75em;
   }
 
+  h2 {
+    width: 100%;
+  }
+
   .service-panel {
+    width: 100%;
+    float: none;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  form div .control-group {
     width: 100%;
     float: none;
   }
@@ -190,6 +214,10 @@ textarea {
 @media screen and (min-width: 641px) and (max-width: 1000px) {
   html {
     font-size: 1em;
+  }
+
+  h2 {
+    width: 100%;
   }
 
   .service-panel {
