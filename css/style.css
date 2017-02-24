@@ -94,10 +94,6 @@ a {
   padding: 1.5em;
 }
 
-#title {
-  min-height: 22em;
-}
-
 h1 {
   font-size: 300%;
   text-align: center;
@@ -189,7 +185,6 @@ textarea {
   .service-panel {
     width: 100%;
     float: none;
-    height: 10em;
   }
 }
 
@@ -200,7 +195,6 @@ textarea {
 
   .service-panel {
     width: 33.3333%;
-    height: 10em;
     margin: 0 auto;
   }
 
