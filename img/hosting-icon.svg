@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="16px"
+   height="16px"
+   viewBox="0 0 16 16"
+   version="1.1"
+   id="SVGRoot"
+   sodipodi:docname="hosting.svg"
+   inkscape:version="0.92.0 r15299">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="64"
+     inkscape:cx="3.1979999"
+     inkscape:cy="5.2142633"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1058"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:grid-bbox="true"
+     inkscape:snap-global="false" />
+  <defs
+     id="defs4485">
+    <clipPath
+       id="clipPath7796"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         y="0.4375"
+         x="-12.59375"
+         height="4.375"
+         width="12.34375"
+         id="rect7798"
+         style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.88558745;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4523">
+      <rect
+         style="opacity:1;fill:#494943;fill-opacity:1;stroke:none;stroke-width:1.8486495;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect4525"
+         width="15.259034"
+         height="5.2105675"
+         x="-12.196557"
+         y="0.96805471" />
+    </clipPath>
+  </defs>
+  <metadata
+     id="metadata4488">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <g
+       id="g4495"
+       transform="matrix(0.36789772,0,0,0.37065222,-0.0678247,-3.1509292)"
+       style="fill:#494943;fill-opacity:1">
+      <g
+         id="g4493"
+         style="fill:#494943;fill-opacity:1">
+        <path
+           style="stroke-width:0.36927241;fill:#494943;fill-opacity:1"
+           d="M 10.048828 0.18164062 C 8.5856989 0.18164062 7.3330752 1.087625 6.8125 2.3730469 C 6.4048693 2.1576979 5.941466 2.0351564 5.4492188 2.0351562 C 4.4079824 2.0351562 3.4987479 2.5819859 2.9765625 3.4042969 L 3.9296875 3.4042969 C 4.3282028 3.0198876 4.8606236 2.7753906 5.4492188 2.7753906 C 5.941466 2.7753906 6.4300809 2.9503267 6.796875 3.2246094 C 6.809751 3.2342494 6.7886412 3.2283519 6.8007812 3.2324219 C 6.8614843 3.2772709 6.9327344 3.3085938 7.0136719 3.3085938 C 7.1957812 3.3085938 7.3514276 3.1495572 7.3808594 2.9746094 C 7.3867494 2.9649694 7.3826687 2.9812469 7.3867188 2.9667969 C 7.7064175 1.7877523 8.7773736 0.921875 10.048828 0.921875 C 11.573028 0.921875 12.808594 2.1655597 12.808594 3.7011719 C 12.808594 3.8564752 12.782823 4.1021098 12.757812 4.25 L 12.761719 4.2578125 C 12.761719 4.4627832 12.925459 4.6289062 13.128906 4.6289062 C 13.138506 4.6289062 13.148633 4.6237869 13.158203 4.6230469 C 13.165203 4.6245269 13.166901 4.6289062 13.175781 4.6289062 C 14.394626 4.6289062 15.382812 5.6235917 15.382812 6.8515625 C 15.382812 8.0795333 14.57822 9.0761719 13.359375 9.0761719 L 8.0078125 9.0761719 L 8.0078125 9.8183594 L 13.912109 9.8183594 L 13.912109 9.8242188 C 15.387747 9.5295499 16.119141 8.2349364 16.119141 6.8535156 C 16.119141 5.3379187 14.98971 4.0903931 13.533203 3.9121094 C 13.536903 3.8427974 13.542969 3.7735489 13.542969 3.703125 C 13.542969 1.7583128 11.979187 0.18164062 10.048828 0.18164062 z "
+           transform="matrix(2.7181468,0,0,2.6979469,0.18435749,8.5010396)"
+           id="path4491" />
+      </g>
+    </g>
+    <g
+       inkscape:label="Layer 1"
+       id="layer1-5"
+       transform="matrix(0.72588253,0,0,0.76738867,-1.829927,3.8190274)">
+      <rect
+         ry="0.96574664"
+         y="0.44163126"
+         x="3.5332181"
+         height="15.150151"
+         width="8.8710642"
+         id="rect7779"
+         style="opacity:1;fill:none;stroke:#494943;stroke-width:0.761343;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <ellipse
+         ry="0.5625"
+         rx="0.59375"
+         cy="9.5625"
+         cx="4.96875"
+         id="path7802"
+         style="opacity:1;fill:#494943;fill-opacity:1;stroke:none;stroke-width:0.33745971;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <ellipse
+         style="opacity:1;fill:#494943;fill-opacity:1;stroke:none;stroke-width:0.17785689;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse7804"
+         cx="4.9375"
+         cy="10.796875"
+         rx="0.3125"
+         ry="0.296875" />
+    </g>
+    <rect
+       style="opacity:1;fill:none;stroke:#494943;stroke-width:0.75590551;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect7800-8"
+       width="10"
+       height="3.78125"
+       x="-11.375"
+       y="0.031249991"
+       clip-path="url(#clipPath4523)"
+       transform="matrix(0.46079253,0,0,0.36284436,6.8708339,5.29722)" />
+    <rect
+       transform="matrix(0.46079253,0,0,0.36284436,6.8708339,6.95347)"
+       clip-path="url(#clipPath4523)"
+       y="0.031249991"
+       x="-11.375"
+       height="3.78125"
+       width="10"
+       id="rect4503"
+       style="opacity:1;fill:none;stroke:#494943;stroke-width:0.75590551;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+</svg>
